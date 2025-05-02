@@ -25,7 +25,7 @@ return {
     })
 
     mason_lspconfig.setup({
-      automatic_installation= true,
+      automatic_installation = true,
       -- list of servers for mason to install
       ensure_installed = {
         "ts_ls",
@@ -47,6 +47,8 @@ return {
         "stylua", -- lua formatter
         "isort", -- python formatter
         "black", -- python formatter
+        "pylint", -- python linter
+        "eslint_d", -- js linter
       },
     })
   end,
