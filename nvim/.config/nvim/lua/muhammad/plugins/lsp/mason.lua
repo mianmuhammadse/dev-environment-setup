@@ -38,6 +38,7 @@ return {
         "emmet_ls",
         "prismals",
         "pyright",
+        "gopls",
       },
     })
 
@@ -49,6 +50,7 @@ return {
         "black", -- python formatter
         "pylint", -- python linter
         "eslint_d", -- js linter
+        "delve", -- go debugger
       },
     })
   end,
